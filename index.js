@@ -35,6 +35,10 @@ export default function solution(content){
   console.log(`HottestCity: ${hottestCity}`);
   // END
 // another var for step 5:
+// const count = Object.entries(data.reduce((acc, row) => {
+//     acc[row[7]] = (acc[row[7]] ?? 0) + 1;
+//     return acc;
+//   }, {}));
 //   const temp = Object.entries(data.reduce((acc, row) => {
 //     acc[row[7]] = (acc[row[7]] ?? 0) + Number(row[1]);
 //     return acc;
