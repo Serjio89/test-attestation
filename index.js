@@ -34,5 +34,12 @@ export default function solution(content){
 
   console.log(`HottestCity: ${hottestCity}`);
   // END
-
-}
+// another var for step 5:
+//   const temp = Object.entries(data.reduce((acc, row) => {
+//     acc[row[7]] = (acc[row[7]] ?? 0) + Number(row[1]);
+//     return acc;
+//   }, {})).map((row, i) => [row[0], row[1] / count[i][1]]);
+//   const middleTemp = Math.max(...temp.map((row) => row[1]));
+//   const city = temp.filter((row) => row.includes(middleTemp)).flat()[0];
+//   console.log(`HottestCity: ${city}`);
+};
